@@ -47,11 +47,68 @@
     nav ul li a:hover {
       background-color: #555;
     }
+    #subscriptionForm {
+    width: 300px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contenedor {
+      background-color: lightgray; /* Solo para demostrar, puedes cambiarlo */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; /* Centra los elementos de arriba a abajo */
+      box-sizing: border-box; /* Incluye padding y borde en las dimensiones */
+    }
+
+textarea, input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.submit-btn {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: red;
+    display: none;
+}
+.title-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+    }
+    .title-container img {
+      width: 50px; /* Tamaño del logo */
+      height: 50px;
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>El lloc de EpicLoot</h1>
+    <div class="title-container">
+      <!-- Logo esquerre -->
+      <a href="index.html"><img src="th.jpg" alt="Logotipo esquerre"></a>
+      <h1>El lloc de EpicLoot</h1>
+      <!-- Logo dret -->
+      <a href="index.html"><img src="th.jpg" alt="Logotipo dret"></a>
+    </div>
     <nav>
       <ul>
         <li><a href="index.html">Presentació</a></li>

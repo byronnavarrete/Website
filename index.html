@@ -55,18 +55,13 @@
     gap: 10px;
 }
 
-
-
-    .logo {
-      position: absolute;
-      top: 10px;
-      left: 10px;
-      cursor: pointer;
-    }
-
-    .logo img {
-      width: 100px; /* Tamaño pequeño del logotipo */
-      height: auto;
+.contenedor {
+      background-color: lightgray; /* Solo para demostrar, puedes cambiarlo */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; /* Centra los elementos de arriba a abajo */
+      box-sizing: border-box; /* Incluye padding y borde en las dimensiones */
     }
 
 textarea, input[type="email"] {
@@ -93,14 +88,27 @@ textarea, input[type="email"] {
     color: red;
     display: none;
 }
+.title-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+    }
+    .title-container img {
+      width: 50px; /* Tamaño del logo */
+      height: 50px;
+    }
   </style>
 </head>
 <body>
   <header>
-    
-    <h1>
-      <a href="index.html" class="logo">El lloc de EpicLoot<img src="th.jpg" alt="Logotipo">
-      </a></h1>
+    <div class="title-container">
+      <!-- Logo esquerre -->
+      <a href="index.html"><img src="th.jpg" alt="Logotipo esquerre"></a>
+      <h1>El lloc de EpicLoot</h1>
+      <!-- Logo dret -->
+      <a href="index.html"><img src="th.jpg" alt="Logotipo dret"></a>
+    </div>
     <nav>
       <ul>
         <li><a href="index.html">Presentació</a></li>

@@ -1,147 +1,148 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Epicloot</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-  <style>
-  /* Make the image fully responsive */
-  .carousel-inner img {
-    width: 100%;
-    height: 100%;
-  }
-    /* Estils CSS */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #440acc;
-      color: #fff;
-      padding: 10px 0;
-      text-align: center;
-    }
-    nav ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      text-align: center;
-    }
-    nav ul li {
-      display: inline-block;
-      margin: 0 10px;
-    }
-    nav ul li a {
-      color: #fff;
-      text-decoration: none;
-      padding: 5px 10px;
-      border-radius: 5px;
-      transition: background-color 0.3s ease;
-    }
-    nav ul li a:hover {
-      background-color: #555;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>El lloc de EpicLoot</h1>
+<html lang="es">
+  <head>
+    <title>Epicloot</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <header class="sticky-menu">
+    <h1>
+      EpicLoot
+    </h1>
     <nav>
       <ul>
         <li><a href="index.html">Presentació</a></li>
         <li><a href="videojuegos.html">Videojocs</a></li>
         <li><a href="accesorios.html">Accessoris</a></li>
-        <li><a href="novedades.html">Novetats:</a></li>
+        <li><a href="novedades.html">Novetats</a></li>
         <li><a href="contacto.html">Contactes</a></li>
       </ul>
     </nav>
   </header>
-<div class="jumbotron text-center">
-  <h1>Videojocs</h1>
-  <p>.</p> 
-  <p>A EpicLoot trobaràs una selecció impressionant de videojocs per a totes les plataformes i gustos. Tant si prefereixes els jocs en format físic com digital, tenim opcions per a tu. Oferim els últims llançaments i títols clàssics per a cada consola.</p>
-
-  <!-- Tipus de Jocs -->
-  <section>
-      <h2>Tipus de Jocs</h2>
-      <ul>
+  <body>
+    <div>
+      <h1>
+        Videojocs
+      </h1>
+      <p>
+        A EpicLoot trobaràs una selecció impressionant de videojocs per a totes les plataformes i gustos. 
+        Tant si prefereixes els jocs en format físic com digital, tenim opcions per a tu. 
+        Oferim els últims llançaments i títols clàssics per a cada consola.
+      </p>
+      <section>
+        <h2>
+          Tipus de Jocs
+        </h2>
+        <ul>
           <li><strong>Format Físic:</strong> Per als que prefereixen col·leccionar jocs en disc o cartutx.</li>
           <li><strong>Format Digital:</strong> Perfecte per descarregar directament i gaudir sense esperar.</li>
           <li><strong>Consoles:</strong> Jocs disponibles per a Nintendo Switch, PlayStation, Xbox i PC.</li>
           <li><strong>Jocs Clàssics i Nous:</strong> Des dels títols retro fins als més nous en el mercat.</li>
-      </ul>
-  </section>
-
-  <!-- Exemples de Jocs amb Preus -->
-  <section>
-      <h2>Colecció de Jocs</h2>
-
-      <div class="joc">
+        </ul>
+      </section>
+      <section>
+        <h2>
+          Colecció de Jocs
+        </h2>
+        <div>
           <img src="images/zelda.jpg" alt="The Legend of Zelda: Tears of the Kingdom">
-          <h3>The Legend of Zelda: Tears of the Kingdom</h3>
-          <p><strong>Plataforma:</strong> Nintendo Switch</p>
-          <p><strong>Preu:</strong> 59,99 €</p>
-      </div>
-
-      <div class="joc">
+          <h3>
+            The Legend of Zelda: Tears of the Kingdom
+          </h3>
+          <p>
+            <strong>Plataforma:</strong> Nintendo Switch
+          </p>
+          <p>
+            <strong>Preu:</strong> 59,99 €
+          </p>
+        </div>
+        <div">
           <img src="images/god_of_war.jpg" alt="God of War: Ragnarok">
-          <h3>God of War: Ragnarok</h3>
-          <p><strong>Plataforma:</strong> PlayStation 5</p>
-          <p><strong>Preu:</strong> 69,99 €</p>
-      </div>
-
-      <div class="joc">
+          <h3>
+            God of War: Ragnarok
+          </h3>
+          <p>
+            <strong>Plataforma:</strong> PlayStation 5
+          </p>
+          <p>
+            <strong>Preu:</strong> 69,99 €
+          </p>
+        </div>
+        <div>
           <img src="images/minecraft.jpg" alt="Minecraft">
-          <h3>Minecraft</h3>
-          <p><strong>Plataforma:</strong> Xbox, Nintendo Switch, PlayStation, PC</p>
-          <p><strong>Preu:</strong> 29,99 €</p>
-      </div>
-
-      <div class="joc">
+          <h3>
+            Minecraft
+          </h3>
+          <p>
+            <strong>Plataforma:</strong> Xbox, Nintendo Switch, PlayStation, PC
+          </p>
+          <p>
+            <strong>Preu:</strong> 29,99 €
+          </p>
+        </div>
+        <div>
           <img src="images/super_mario_bros.jpg" alt="Super Mario Bros. Deluxe">
-          <h3>Super Mario Bros. Deluxe</h3>
-          <p><strong>Plataforma:</strong> Nintendo Switch</p>
-          <p><strong>Preu:</strong> 49,99 €</p>
-      </div>
-  </section>
-
-  <!-- Jocs de Consoles Antigues -->
-  <section>
-      <h2>Jocs Clàssics</h2>
-      <p>També tenim una col·lecció de jocs clàssics per a les consoles més antigues, perfectes per als nostàlgics. Títols populars inclouen:</p>
+          <h3>
+            Super Mario Bros. Deluxe
+          </h3>
+          <p>
+            <strong>Plataforma:</strong> Nintendo Switch
+          </p>
+          <p>
+            <strong>Preu:</strong> 49,99 €
+          </p>
+        </div>
+      </section>
+    </div>
+    <section>
+      <h2>
+        Jocs Clàssics
+      </h2>
+      <p>
+        També tenim una col·lecció de jocs clàssics per a les consoles més antigues, perfectes per als nostàlgics. Títols populars inclouen:
+      </p>
       <ul>
-          <li>Super Mario 64 - Nintendo 64 - 24,99 €</li>
-          <li>The Legend of Zelda: Ocarina of Time - Nintendo 64 - 29,99 €</li>
-          <li>Final Fantasy VII - PlayStation - 19,99 €</li>
-          <li>Sonic the Hedgehog - Sega Genesis - 14,99 €</li>
+        <li>Super Mario 64 - Nintendo 64 - 24,99 €</li>
+        <li>The Legend of Zelda: Ocarina of Time - Nintendo 64 - 29,99 €</li>
+        <li>Final Fantasy VII - PlayStation - 19,99 €</li>
+        <li>Sonic the Hedgehog - Sega Genesis - 14,99 €</li>
       </ul>
-  </section>
-
-  <!-- Ofertes Especials en Videojocs -->
-  <section>
-      <h2>Ofertes Especials</h2>
-      <p>Descomptes limitats en alguns dels nostres títols més populars:</p>
-      <div class="oferta">
-          <h3>Pack de Jocs d'Aventura</h3>
-          <p>Inclou "The Witcher 3", "Skyrim", i "Assassin's Creed: Valhalla" - <strong>69,99 €</strong> (abans 99,99 €)</p>
-          <img src="images/The-Witcher-3iAssassin_s-Creed_-Valhalla.jpg" alt="Pack de Jocs d'Aventura">
-          <img src="images/skyrim.jpeg" alt="Skyrim">
+    </section>
+    <section>
+      <h2>
+        Ofertes Especials
+      </h2>
+      <p>
+        Descomptes limitats en alguns dels nostres títols més populars:
+      </p>
+      <div>
+        <h3>
+          Pack de Jocs d'Aventura
+        </h3>
+        <p>
+          Inclou "The Witcher 3", "Skyrim", i "Assassin's Creed: Valhalla" - <strong>69,99 €</strong> (abans 99,99 €)
+        </p>
+        <img src="images/The-Witcher-3iAssassin_s-Creed_-Valhalla.jpg" alt="Pack de Jocs d'Aventura">
+        <img src="images/skyrim.jpeg" alt="Skyrim">
       </div>
-  </section>
-  <footer>
-    <p>Segueix-nos a les xarxes socials:</p>
-       <ul class="socials">
-           <li><a href="https://www.facebook.com">Facebook</a></li>
-           <li><a href="https://www.instagram.com">Instagram</a></li>
-           <li><a href="https://www.twitter.com">Twitter</a></li>
-       </ul>
-       <p>© 2024 Byron Navarrete Lynch i Aleix </p>
-   </footer>
-</body>
+    </section>
+  </body>
+  <footer class="main-footer">
+    <div class="footer-content">
+      <p>
+        Segueix-nos a les xarxes socials:
+      </p>
+      <ul>
+        <li><a href="https://www.facebook.com">Facebook</a></li>
+        <li><a href="https://www.instagram.com">Instagram</a></li>
+        <li><a href="https://www.twitter.com">Twitter</a></li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <p>
+        © 2024 Byron Navarrete Lynch i Aleix Linares Sousa
+      </p>
+    </div>
+  </footer>
 </html>
